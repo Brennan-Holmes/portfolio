@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/styles.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function index() {
   return (
@@ -33,6 +33,13 @@ export default function index() {
             </Link>
           </ul>
         </nav>
+        <div class={styles.stars}>
+          <div class={styles.stars}></div>
+          <div class={styles.stars}></div>
+          <div class={styles.stars}></div>
+          <div class={styles.stars}></div>
+          <div class={styles.stars}></div>
+        </div>
         <div className={styles.row}>
           <p className={styles.pHome1}>
             Hi, my name is Brennan, <br />I live in Halifax Nova Scotia

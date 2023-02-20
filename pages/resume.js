@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
 
 export default function resume() {
   return (
@@ -36,13 +37,14 @@ export default function resume() {
         </nav>
       </div>
       <div className={styles.container}>
-        <Link
-          className={styles.downloadResume}
-          href="https://drive.google.com/file/d/1Q5kGoSI1VSlMSOFKMPKz_8R7kJk49icV/view?usp=share_link"
-        >
-          <FontAwesomeIcon icon={faCloudArrowDown} />
-          Download Resume
-        </Link>
+      <Image
+          src="/resume.jpg"
+          width={800}
+          height={1000}
+          quality={80}
+          alt="Image not working"
+          className={styles.imgResume}
+        />
       </div>
       <footer className={styles.footer}>Made with ❤️ by Brennan Holmes</footer>
     </>

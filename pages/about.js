@@ -35,7 +35,7 @@ export default function about() {
       <div className={styles.containerAbout1}>
         <div className={styles.about_parent}>
           <div className={styles.aboutMe1}  >About Me</div>
-          <div className={styles.containerP1}  >
+          {/* <div className={styles.containerP1}  >
             Hi, my name is Brennan Holmes, I am currently taking a diploma in{' '}
             <br />
             Web Development at NSCC. Upon graduation in June 2023 I would like
@@ -43,6 +43,10 @@ export default function about() {
             to secure a position as a Junior Programer to gain experience and{' '}
             <br />
             grow within a company.
+          </div> */}
+          <div className={styles.containerP1}>
+            Hi, my name is Brennan Holmes, I am currently taking a diploma in Web Development at NSCC.
+            Upon graduation in June 2023 I would like to secure a position as a Junior Programer to gain experience and grow within a company.
           </div>
           <div>
             <h3 className={styles.techSkills1} >Technology's that I've learned.</h3>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
 
 .main {
   display: flex;
@@ -442,15 +442,13 @@
   animation-duration: 1.5s;
   margin-top: 2rem;
   font-size: 23px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .navList {
   display: flex;
   animation-name: slideAnimateATags;
   animation-duration: 2.5s;
+  font-family: 'Roboto', sans-serif;
 }
 
 .techSkills {
@@ -583,14 +581,11 @@
 }
 
 .row {
-  /* border: 1px solid red; */
   height: 88vh;
-  /* padding-top: 8%; */
-  padding-left: 8%;
+  padding-left: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .col {
@@ -749,31 +744,24 @@
     transform: translate(-50%, -50%);
   }
 }
-/*
-@media only screen and (max-width: 600px) {
-  .footer {
-    text-align: center;
-    color: grey;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-  }
-} */
 
 @media (max-width: 500px) {
   .item_div {
     height: auto;
   }
+
   .pHome {
     height: auto;
   }
+
   .img {
     margin-top: 0.6rem;
   }
+
   .navItem {
     padding: 0.5rem 0.4rem 0.5rem 0.4rem;
   }
+
   .footer {
     text-align: center;
     color: grey;
@@ -781,6 +769,14 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+  }
+
+  .row {
+    height: 88vh;
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -792,14 +788,12 @@
 
 /* Css for About Page */
 .containerAbout1 {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 88vh;
 }
 .about_parent {
-  /* border: 1px solid green; */
   width: 30rem;
 }
 .aboutMe1 {
@@ -817,11 +811,9 @@
 .containerP1 {
   text-align: center;
   margin: 0.5rem;
-  /* border: 1px solid red; */
   font-family: Inter;
   border-radius: 8px;
   color: white;
-  /* font-size: 1.25rem; */
   font-weight: 500;
   animation-name: animateSlideDown;
   animation-duration: 1.5s;
@@ -858,6 +850,7 @@
   animation-duration: 1.5s;
 }
 .container1 {
+  font-family: roboto;
   position: absolute;
   left: 48%;
   color: #d6d6d6b5;
@@ -870,14 +863,26 @@
   align-items: center;
   border-radius: 20px;
   margin-left: 5px;
-  /* border-radius: 20px; */
-  /* margin-top: 5rem; */
   animation-name: animateSlideDown;
   animation-duration: 1.5s;
+  animation-delay: 1ms;
 }
 @media (max-width: 1000px) {
   .container1 {
     position: inherit;
     margin-top: 10px;
   }
+}
+
+.imgResume {
+  width: 30%;
+  height: 60%;
+  max-width: 75%;
+  border-radius: 8px;
+  animation-name: animateSlideDown;
+  animation-duration: 1.5s;
+  animation-delay: 1ms;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
