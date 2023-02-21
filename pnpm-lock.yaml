@@ -12,6 +12,7 @@ specifiers:
   react: ^18.2.0
   react-dom: 18.2.0
   react-pdf: ^6.2.0
+  react-typed: ^1.2.0
   surge: ^0.23.1
 
 dependencies:
@@ -26,6 +27,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-pdf: 6.2.0_biqbaboplfbrettd7655fr4n2y
+  react-typed: 1.2.0_biqbaboplfbrettd7655fr4n2y
   surge: 0.23.1
 
 packages:
@@ -904,6 +906,18 @@ packages:
       - worker-loader
     dev: false
 
+  /react-typed/1.2.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw==}
+    peerDependencies:
+      react: ^16.3.0
+      react-dom: ^16.3.0
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      typed.js: 2.0.12
+    dev: false
+
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
@@ -1151,6 +1165,10 @@ packages:
 
   /tweetnacl/0.14.5:
     resolution: {integrity: sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA==}
+    dev: false
+
+  /typed.js/2.0.12:
+    resolution: {integrity: sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==}
     dev: false
 
   /update-browserslist-db/1.0.10_browserslist@4.21.5:

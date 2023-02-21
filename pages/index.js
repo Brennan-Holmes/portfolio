@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/styles.module.css';
+import Typed from "react-typed";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function index() {
@@ -33,41 +34,22 @@ export default function index() {
             </Link>
           </ul>
         </nav>
-        <section className={styles.starsSection}>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-        </section>
-        <section className={styles.starsSection2}>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-        </section>
-        <section className={styles.starsSection3}>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-            <span className={styles.span}></span>
-        </section>
         <div className={styles.row}>
           <p className={styles.pHome1}>
-            Hi, my name is Brennan, <br />I live in Halifax Nova Scotia
+            {/* Hi, my name is Brennan, <br />I live in Halifax Nova Scotia */}
+              Hi, my name is Brennan <br />
+            <Typed
+              strings={[
+                "I live in Halifax Nova Scotia",
+              ]}
+              typeSpeed={150}
+              backSpeed={100}
+              loop
+            />
           </p>
-          <div className={styles.Pwebdev}>I'm a Junior Web Developer</div>
+          <div className={styles.Pwebdev}>
+            I'm a Junior Web Developer
+          </div>
           <div className={styles.container1}>
             <Link href="/resume">Resume</Link>
           </div>
