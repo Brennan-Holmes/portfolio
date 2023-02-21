@@ -33,13 +33,36 @@ export default function index() {
             </Link>
           </ul>
         </nav>
-        <div class={styles.stars}>
-          <div class={styles.stars}></div>
-          <div class={styles.stars}></div>
-          <div class={styles.stars}></div>
-          <div class={styles.stars}></div>
-          <div class={styles.stars}></div>
-        </div>
+        <section className={styles.starsSection}>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+        </section>
+        <section className={styles.starsSection2}>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+        </section>
+        <section className={styles.starsSection3}>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+            <span className={styles.span}></span>
+        </section>
         <div className={styles.row}>
           <p className={styles.pHome1}>
             Hi, my name is Brennan, <br />I live in Halifax Nova Scotia
