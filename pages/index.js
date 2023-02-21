@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/styles.module.css';
-import Typed from "react-typed";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Typed from 'react-typed';
+import { FaGithub } from 'react-icons/fa';
 
 export default function index() {
   return (
@@ -37,19 +37,15 @@ export default function index() {
         <div className={styles.row}>
           <p className={styles.pHome1}>
             {/* Hi, my name is Brennan, <br />I live in Halifax Nova Scotia */}
-              Hi, my name is Brennan <br />
+            Hi, my name is Brennan Holmes <br />
             <Typed
-              strings={[
-                "I live in Halifax Nova Scotia",
-              ]}
+              strings={['I live in Halifax Nova Scotia']}
               typeSpeed={150}
               backSpeed={100}
               loop
             />
           </p>
-          <div className={styles.Pwebdev}>
-            I'm a Junior Web Developer
-          </div>
+          <div className={styles.Pwebdev}>I'm a Junior Web Developer</div>
           <div className={styles.container1}>
             <Link href="/resume">Resume</Link>
           </div>
@@ -57,12 +53,14 @@ export default function index() {
       </div>
       <div className={styles.containerIcons}>
         <Link href="https://github.com/Brennan-Holmes">
-          <i className="fab fa-github"></i>
+          {/* <i className="fa-brands fa-github"></i> */}
+          <FaGithub />
         </Link>
         <Link href="https://www.linkedin.com/in/brennan-holmes/">
           <i className="fab fa-linkedin"></i>
         </Link>
       </div>
+      <div></div>
       <footer className={styles.footer}>
         <div>Made with ❤️ by Brennan Holmes</div>
       </footer>

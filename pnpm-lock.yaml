@@ -7,10 +7,10 @@ specifiers:
   '@fortawesome/react-fontawesome': ^0.2.0
   '@next/font': 13.0.7
   autoprefixer: ^10.4.13
-  font-awesome: ^4.7.0
   next: 13.0.7
   react: ^18.2.0
   react-dom: 18.2.0
+  react-icons: ^4.7.1
   react-pdf: ^6.2.0
   react-typed: ^1.2.0
   surge: ^0.23.1
@@ -22,10 +22,10 @@ dependencies:
   '@fortawesome/react-fontawesome': 0.2.0_z27bm67dtmuyyvss23ckjdrcuy
   '@next/font': 13.0.7
   autoprefixer: 10.4.13
-  font-awesome: 4.7.0
   next: 13.0.7_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
   react-pdf: 6.2.0_biqbaboplfbrettd7655fr4n2y
   react-typed: 1.2.0_biqbaboplfbrettd7655fr4n2y
   surge: 0.23.1
@@ -470,11 +470,6 @@ packages:
       escape-string-regexp: 1.0.5
     dev: false
 
-  /font-awesome/4.7.0:
-    resolution: {integrity: sha512-U6kGnykA/6bFmg1M/oT9EkFeIYv7JlX3bozwQJWiiLz6L0w3F5vBVPxHlwyX/vtNq1ckcpRKOB9f2Qal/VtFpg==}
-    engines: {node: '>=0.10.3'}
-    dev: false
-
   /forever-agent/0.6.1:
     resolution: {integrity: sha512-j0KLYPhm6zeac4lz3oJ3o65qvgQCcPubiyotZrXqEaG4hNagNYO8qdlUrX5vwqv9ohqeT/Z3j6+yW067yWWdUw==}
     dev: false
@@ -875,6 +870,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
